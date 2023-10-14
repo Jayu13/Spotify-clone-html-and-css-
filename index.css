@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #020202;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.left-box {
+    width: 25vw;
+}
+
+.right-box {
+    width: 75vw;
+}
+
+
+.box1 {
+    background-color: #121212;
+    height: 20vh;
+    border-radius: 4px;
+    margin: 7px;
+    padding: 20px;
+}
+
+.box2 {
+    background-color: #121212;
+    height: 70vh;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.box3 {
+    background-color: #121212;
+    height: 91vh;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+
+.footer {
+    width: 100%;
+    height: 55px;
+    color: white;
+    background-image: linear-gradient(90deg, #9b3fa9, #776acd);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.footer .content p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.footer .content h5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer .button-sign button {
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+/** Content box1 */
+
+.left-box .box1 img {
+    margin-top: 10px;
+}
+
+.left-box .box1 h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.left-box .box1 h2 {
+    color: #ffffff;
+}
+
+.left-box .box1 h2 i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.left-box .box1 .search,
+.left-box .box1 .search i {
+    color: #888888;
+    transition: all 0.2s ease-in;
+}
+
+.left-box .box1:hover .search,
+.left-box .box1:hover .search i {
+    color: #ffffff;
+}
+
+/** box2 */
+.box2 {
+    padding: 20px;
+}
+
+.box2 .library {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.box2 .library h2 {
+    color: #888888;
+    font-size: 16px;
+    transition: all 0.2s ease-in;
+}
+
+.box2 .library h2 i {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #888888;
+    transition: all 0.2s ease-in;
+}
+
+.left-box .box2 .library:hover h2,
+.left-box .box2 .library:hover h2 i {
+    color: #ffffff;
+}
+
+.left-box .box2 .library .plus {
+    color: #888888;
+    transition: all 0.2s ease-in-out;
+}
+
+.left-box .box2 .library:hover .plus {
+    color: #ffffff;
+}
+
+
+/** Inner Box */
+
+.inner-box {
+    margin-top: 25px !important;
+}
+
+.inn-box1 {
+    width: 100%;
+    height: 150px;
+    background-color: #242424;
+    border-radius: 5px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.inn-box2 {
+    width: 100%;
+    height: 150px;
+    background-color: #242424;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.inn-box1 h3,
+.inn-box2 h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.inn-box1 p,
+.inn-box2 p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.inn-box1 button,
+.inn-box2 button {
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.inn-box1 button:hover,
+.inn-box2 button:hover {
+    transform: scale(1.1);
+}
+
+
+.cookies {
+    margin-top: 80px;
+}
+
+.cookies a {
+    text-decoration: none;
+    color: #888888;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.box2 .lang {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 8px 20px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.box2 .lang:hover {
+    transform: scale(1.1);
+    border: 2px solid #fff;
+}
+
+/** right sidebar */
+
+.box3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.arrows {
+    gap: 10px;
+    padding: 20px;
+}
+
+.arrows i {
+    font-size: 16px;
+    color: #888888;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.right-box .box3 .sign-up {
+    padding: 20px;
+}
+
+.sign-up h4 {
+    display: inline;
+    margin-right: 15px;
+    color: #888888;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.sign-up h4:hover {
+    color: #ffffff;
+}
+
+.sign-up button {
+    padding: 13px 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.sign-up button:hover {
+    transform: scale(1.1);
+}
+
+.cards {
+    width: 100%;
+    height: 680px;
+    background-image: linear-gradient(180deg, #2424248c, #121212);
+}
+
+.heading {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading h2 {
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.heading p {
+    color: #a8a8a8;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.heading h2:hover,
+.heading p:hover {
+    text-decoration: underline;
+}
+
+.inner-card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 15%;
+    height: 290px;
+    background-color: #121212;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.2s ease-in;
+    position: relative;
+}
+
+.card:hover {
+    background-color: #242424;
+}
+
+.card .play {
+    position: absolute;
+    background-color: #58f74e;
+    padding: 15px;
+    top: 50%;
+    left: 63%;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.card:hover .play {
+    opacity: 100%;
+    top: 40%;
+}
+
+.card .play:hover {
+    transform: scale(1.1);
+}
+
+.card .play i {
+    font-size: 16px;
+}
+
+.inn-card-box {
+    width: 100%;
+    height: 150px;
+    background-color: #242424;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.inn-card-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #121212;
+}
+
+
+.card h3 {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.card p {
+    color: #999999;
+    margin-top: 5px;
+    line-height: 1.5;
+    font-size: 14px;
+}
